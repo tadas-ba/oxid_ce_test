@@ -30,6 +30,8 @@ $aLang = array(
 
 'charset'                                  => 'ISO-8859-15',
 
+    'ARTICLE_EXTEND_HOTOFFER'               => 'Hot Offer',
+    'HELP_ARTICLE_EXTEND_HOTOFFER'          => 'Product is marked for Hot Offer',
 );
 
 /*
