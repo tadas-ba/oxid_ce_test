@@ -1,0 +1,16 @@
+.markHotOffer  {
+    position: relative;
+    left: 0; top: 0;
+}
+
+.markHotOffer .imgA {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.markHotOffer .imgB {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
