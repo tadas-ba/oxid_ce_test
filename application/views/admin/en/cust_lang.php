@@ -32,6 +32,7 @@ $aLang = array(
 
     'ARTICLE_EXTEND_HOTOFFER'               => 'Hot Offer',
     'HELP_ARTICLE_EXTEND_HOTOFFER'          => 'Product is marked for Hot Offer',
+    'GENERAL_HOTOFFER'                      => 'Hot Offer',
 );
 
 /*
