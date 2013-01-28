@@ -25,9 +25,11 @@ $aModule = array(
     ),
     'blocks'    => array(
         array('template' => 'article_extend.tpl', 'block'=>'admin_article_extend_form', 'file'=>'admin_article_extend_form.tpl'),
-        array('template' => 'article_list.tpl', 'block'=>'admin_article_list_filter', 'file'=>'admin_article_list_filter.tpl'),
-        array('template' => 'article_list.tpl', 'block'=>'admin_article_list_colgroup', 'file'=>'admin_article_list_colgroup.tpl'),
-        array('template' => 'article_list.tpl', 'block'=>'admin_article_list_sorting', 'file'=>'admin_article_list_sorting.tpl'),
+//        array('template' => 'article_list.tpl', 'block'=>'admin_article_list_filter', 'file'=>'admin_article_list_filter.tpl'),
+//        array('template' => 'article_list.tpl', 'block'=>'admin_article_list_colgroup', 'file'=>'admin_article_list_colgroup.tpl'),
+//        array('template' => 'article_list.tpl', 'block'=>'admin_article_list_sorting', 'file'=>'admin_article_list_sorting.tpl'),
+        array('template' => 'layout/base.tpl', 'block'=>'base_style', 'file'=>'out/blocks/base_style.tpl'),
+        array('template' => 'listitem_infogrid.tpl', 'block'=>'widget_product_listitem_infogrid_gridpicture', 'file'=>'widget_product_listitem_infogrid_gridpicture.tpl'),
     ),
 //    'files' => array(
 //        'srOxArticle'            => 'srhotoffer/core/sroxarticle.php',
