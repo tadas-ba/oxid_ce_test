@@ -8,7 +8,7 @@ $sMetadataVersion = '1.0';
  * Module information
  */
 $aModule = array(
-    'id'           => 'sr_hotoffer',
+    'id'           => 'srhotoffer',
     'title'        => 'Hot Offer Tagging',
     'description'  => array(
 
@@ -20,8 +20,8 @@ $aModule = array(
     'url'          => '',
     'email'        => '',
     'extend'       => array(
-        'oxarticle'          => 'sr_hotoffer/core/sroxarticle',
-
+        'oxarticle'          => 'srhotoffer/core/sroxarticle',
+        'sroxalist'          => 'srhotoffer/core/sroxalist'
     ),
     'blocks'    => array(
         array('template' => 'article_extend.tpl', 'block'=>'admin_article_extend_form', 'file'=>'admin_article_extend_form.tpl'),
@@ -30,6 +30,6 @@ $aModule = array(
         array('template' => 'article_list.tpl', 'block'=>'admin_article_list_sorting', 'file'=>'admin_article_list_sorting.tpl'),
     ),
 //    'files' => array(
-//        'srOxArticle'            => 'sr_hotoffer/core/sroxarticle.php',
+//        'srOxArticle'            => 'srhotoffer/core/sroxarticle.php',
 //    ),
 );
