@@ -21,6 +21,7 @@ $aModule = array(
     'email'        => '',
     'extend'       => array(
         'oxarticle'          => 'srhotoffer/core/sroxarticle',
+        'oxViewConfig'       => 'srhotoffer/core/sroxviewconfig',
 //        'sroxalist'          => 'srhotoffer/core/sroxalist'
     ),
     'blocks'    => array(

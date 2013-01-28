@@ -9,6 +9,10 @@
 
 class srOxArticle extends oxArticle
 {
+    /**
+     * Check's if an article has a HotOffer tag
+     * returns 1 if does, 0 otherwise
+     */
     public function isHotOffer()
     {
 //        $oArticle = oxNew('oxarticle');
