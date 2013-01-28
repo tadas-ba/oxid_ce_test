@@ -9,5 +9,15 @@
 
 class srOxArticle extends oxArticle
 {
-
+    public function isHotOffer()
+    {
+//        $oArticle = oxNew('oxarticle');
+//        $oArticle = init('oxarticles');
+//        $oArticle->load($oArticle->oxarti);
+//        print_r($this);
+//        if($this->oxarticles__sroxhotoffer->value == '1'){
+//            return true;
+//        }
+        return $this->oxarticles__sroxhotoffer->value;
+    }
 }

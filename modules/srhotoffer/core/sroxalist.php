@@ -17,7 +17,7 @@ class sroxaList extends aList
     public function isHotOffer($sOxId)
     {
         $oArticle = oxNew('oxarticle');
-        $oArticle = init('oxarticle');
+//        $oArticle = init('oxarticle');
         $oArticle->load($sOxId);
         if($oArticle->oxarticle__sroxhotoffer->value == '1'){
             return true;
