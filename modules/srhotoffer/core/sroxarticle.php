@@ -24,4 +24,5 @@ class srOxArticle extends oxArticle
 //        }
         return $this->oxarticles__sroxhotoffer->value;
     }
+
 }

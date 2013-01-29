@@ -29,6 +29,7 @@ $sLangName  = "Deutsch";
 $aLang = array(
 
 'charset'                                  => 'ISO-8859-15',
+    'PAGE_HOTOFFERS'                        => 'Hot Offers',
 
 );
 
