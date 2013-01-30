@@ -1,4 +1,3 @@
-[{block name="admin_article_list_filter"}]
 <td valign="top" class="listfilter first" align="right">
     <div class="r1"><div class="b1">&nbsp;</div></div>
 </td>
@@ -37,10 +36,12 @@
         <input class="listedit" type="text" size="20" maxlength="128" name="where[oxarticles][[{$pwrsearchfld|oxlower}]]" value="[{ $pwrsearchinput}]" [{include file="help.tpl" helpid=searchfieldoxdynamic}]>
     </div></div>
 </td>
-<td>
+<td height="20" valign="middle" class="listfilter" nowrap>
     <div class="r1"><div class="b1 n18">
-
-    /<div></div>
+        <input class="listedit" type="checkbox" name="where[oxarticles][sroxhotoffer]" value="1"
+        [{if $where.oxarticles.sroxhotoffer == 1}]checked[{/if}]
+        onChange="Javascript:document.search.lstrt.value=0;document.search.submit();">
+    </div></div>
 </td>
 <td valign="top" class="listfilter" colspan="2" nowrap>
     <div class="r1"><div class="b1">
@@ -55,4 +56,3 @@
         <input class="listedit" type="text" size="25" maxlength="128" name="where[oxarticles][oxshortdesc]" value="[{ $where.oxarticles.oxshortdesc}]" [{include file="help.tpl" helpid=searchfieldoxshortdesc}]>
     </div></div>
 </td>
-[{/block}]

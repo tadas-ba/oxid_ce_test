@@ -9,7 +9,7 @@
 
 class srHotOffers extends oxUBase
 {
-    protected  $_sThisTemplate = 'hotoffers.tpl';
+    protected  $_sThisTemplate = 'custom/hotoffers.tpl';
 
     public function getHotOfferList()
     {
