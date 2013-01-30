@@ -58,7 +58,7 @@
     <a id="[{$testid}]" href="[{$_productLink}]" class="titleBlock title fn" title="[{ $product->oxarticles__oxtitle->value}] [{$product->oxarticles__oxvarselect->value}]">
         <span>[{ $product->oxarticles__oxtitle->value }] [{$product->oxarticles__oxvarselect->value}]</span>
         <div class="gridPicture">
-            <img src="[{$product->getThumbnailUrl()}]" alt="[{ $product->oxarticles__oxtitle->value }] [{$product->oxarticles__oxvarselect->value}]">
+            [{include  file="widget/product/inc/hotoffer_imige_overlie.tpl"}]
         </div>
     </a>
     [{block name="widget_product_listitem_grid_tobasket"}]
