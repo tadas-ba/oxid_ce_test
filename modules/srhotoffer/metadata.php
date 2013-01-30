@@ -34,6 +34,7 @@ $aModule = array(
         array('template' => 'article_list.tpl', 'block'=>'admin_article_list_item', 'file'=>'admin_article_list_item.tpl'),
         array('template' => 'layout/base.tpl', 'block'=>'base_style', 'file'=>'out/blocks/base_style.tpl'),
         array('template' => 'widget/product/listitem_infogrid.tpl', 'block'=>'widget_product_listitem_infogrid_gridpicture', 'file'=>'out/blocks/widget_product_listitem_infogrid_gridpicture.tpl'),
+        array('template' => 'widget/product/listitem_list.tpl', 'block'=>'widget_product_listitem_line_picturebox', 'file'=>'out/blocks/widget_product_listitem_line_picturebox.tpl'),
         array('template' => 'page/details/inc/productmain.tpl', 'block'=>'details_productmain_zoom', 'file'=>'out/blocks/details_productmain_zoom.tpl'),
     ),
 //    'files' => array(
